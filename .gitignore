@@ -1,0 +1,27 @@
+# Dependencies and generated frontend files
+frontend/node_modules/
+frontend/dist/
+
+# Generated Java and Maven files
+backend/target/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Local database configuration
+**/application-local.properties
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+backend/src/main/resources/application.properties
+# Root Node.js dependencies
+/node_modules/
+
+# Keep local database credentials private
+backend/src/main/resources/application.properties
